@@ -1,0 +1,78 @@
+.cv{
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cv{
+        margin: auto;
+        font-size: 1px !important;
+        height: auto;
+        width: 100vw;
+        box-sizing: border-box !important;
+        object-fit: contain;
+    }
+    .skill,.desine{
+        display: block;
+       margin: 0;
+    }
+    .leftSide{
+        width: 50%;
+      
+      }
+      .rightSide{
+          width: 50%;
+      }
+   
+
+}
+
+.cv img{
+    width: 101px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin: 6px auto;
+}
+
+.header{
+    text-align: center;
+    font-size: 20px;
+}
+.header span{
+    font-size: small;
+}
+.links i{
+    color: darkblue ;
+    font-size: small;
+}
+
+.skill,.desine{
+    display: flex;
+    margin: 5px 50px;
+}
+.leftSide{
+    flex: 1;
+
+}
+.rightSide{
+    flex: 1;
+}
+.skill hr,.desine hr{
+    width: 60%;
+}
+.headerSkill{
+    text-align: center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+.headerColor{
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ transition: 200ms ease-in;
+}
+.landing-grid{
+  background: #9796f0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+  .avatar-img{
+    border-radius: 30%;
+    height: 270px;
+    width: auto;
+    margin-left: 12%;
+    box-shadow: 1px 0px 4px 4px gray;
+  }
+ .banner {
+   text-align: center;
+   background: #000;
+   opacity: 0.8;
+   margin: auto;
+   border-radius: 12px;
+
+  }
+  .banner h2,.banner p{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+  }
+  .banner p{
+    margin-left:40px;
+  }
+  .banner hr {
+    width: 50%;
+    margin: auto;
+    border-top: 8px double whitesmoke;
+  }
+
+  .socialLinks{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .socialLinks i{
+    font-size: 50px;
+  }
+  @media only screen and (max-width: 1000px) {
+    .socialLinks {
+      width: 40%;
+       margin: auto;
+    }
+
+    .socialLinks i{
+      margin:5px;
+    }
+    .banner h2{
+      font-size: 20px;
+      margin-top: 60px;
+    }
+  }
+  .socialLinks i:hover{
+   box-shadow: 0px 0px 2px 4px ghostwhite;
+   background: transparent;
+   color: blue;
+  }
+
+  .drawarColor{
+  
+      background: #232526 !important;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color:whitesmoke !important;
+    
+  }
+  .drawarColor a{  transition:all 200ms ease !important;}
+  .drawarColor a:hover{
+ font-size: 15px;
+ background-color: teal !important;
+ color: white !important;
+ margin-left: 8px !important;
+  }
+.demo-big-content i{
+margin-right:8px ;
+color:red;
+}
+.demo-big-content {
+background-color: #000;
+}
+
+.headerColor a:hover{
+font-size: 16px;
+color: brown;
+}
